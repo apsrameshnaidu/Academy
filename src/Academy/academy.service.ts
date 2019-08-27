@@ -6,7 +6,6 @@ import { Academy } from './academy.entity';
 @Injectable()
 export class AcademyService {
   constructor(
-  //@Inject('ACADEMY_REPOSITORY')
     @InjectRepository(Academy)
     private readonly academyRepository: Repository<Academy>,
   ) {}
