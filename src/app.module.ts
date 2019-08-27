@@ -18,7 +18,5 @@ import { AcademyModule } from './academy/academy.module';
     AcademyModule,
   ],
 })
-export class ApplicationModule {
-  //constructor(private readonly connection: Connection) {}
-}
+export class ApplicationModule {}
  
