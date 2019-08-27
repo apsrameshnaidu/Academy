@@ -11,5 +11,3 @@ export class AcademyController {
     return this.academyService.findAll();
   }
 }
-
-/////////[TypeOrmModule] Unable to connect to the database./////////
