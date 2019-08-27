@@ -7,5 +7,3 @@ import { AcademyController } from './academy.controller';
   controllers: [AcademyController],
 })
 export class AcademyModule {}
-
-//This module uses forFeature() method to define which repositories shall be registered in the current scope to inject the AcademyRepository to the AcademyService using the @InjectRepository() decorator
